@@ -1,0 +1,18 @@
+nav a{
+  color:pink;
+}
+
+a.current {
+  font-family: Helvetica;
+  color: green;
+}
+
+a.skip{
+  color: green;
+  position: relative;
+  left: -2000px;
+}
+
+a.skip:focus{
+  left: 100px;
+}
